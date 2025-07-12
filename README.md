@@ -55,12 +55,6 @@ snake-ladder-game/
 
 ---
 
-## 🤝 Contributions
-
-Pull requests and suggestions are welcome! Feel free to fork the repo and improve the game.
-
----
-
 ## 📄 License
 
 This project is open-source.

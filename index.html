@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake and Ladder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎲 Snake and Ladder 🎲</h1>
+
+  <div id="board"></div>
+
+  <div class="controls">
+    <button onclick="rollDice()">Roll Dice</button>
+    <p>
+      <img id="dice-img" src="dice.png" alt="dice" width="60" />
+      <span id="dice-number">1</span>
+    </p>
+    <p id="turn">Player 1's Turn</p>
+  </div>
+
+  <div id="win-popup" class="popup">
+    <div class="popup-content">
+      <h2 id="winner-text">🎉 Winner!</h2>
+      <button onclick="resetGame()">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
